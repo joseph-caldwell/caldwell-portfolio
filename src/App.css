@@ -13,7 +13,9 @@ font-family: "Roboto Condesed" sans-serif;
 
 /************************ NAVBAR *********************************/
 .logo {
-  width: 16.25rem;
+
+  height:5rem;
+  margin-right: 2.5rem;
 }
 
 /*----- MENU LINKS --------*/
