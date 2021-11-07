@@ -44,7 +44,10 @@
 }
 
 @media(max-width: 768px) {
-   .typed-text {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
     font-size: 1.3rem !important;
 
   }
