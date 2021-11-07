@@ -1,14 +1,14 @@
 import React from "react";
-
+import Joey from '../../img/joeyNobackground.png';
 import Typed from "react-typed";
 import './header.css'
 
 const Header = () => {
   return (
     <div className="header-wraper">
+       
       <div className="main-info">
-        <canvas className="tsparticles-canvas-el"></canvas>
-        <h1>web development and Mobile App Development</h1>
+       <h1>web development and Mobile App Development</h1>
         <Typed
           className="typed-text"
           strings={["Web Design", "Web Development", "Mobile App Design", "Android Mobile App Development", "Figma or Adobe XD","React & React-Native"]}

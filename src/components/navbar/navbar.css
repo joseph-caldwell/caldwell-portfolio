@@ -7,12 +7,27 @@
   --primary-hover-red: #f33501;
 }
 
+/************************ NAVBAR *********************************/
+
 nav {
   z-index: 2;
 }
 
 .logo {
-  width: 16.25rem;
+  width: 12.25rem;
+  height: 8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.myImage {
+  width: 15.25rem;
+  height: 8rem;
+  margin-bottom:15px;
+ margin-top: -15px;
 }
 
 /*----- MENU LINKS --------*/
@@ -51,4 +66,10 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.devNameb {
+   color:var --primary-dark-orange;
+   float: inline-end;
+   z-index: 1;
 }
