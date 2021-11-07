@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import mylogo from '../img/joeyemojiNB.png'
+import mylogo from '../../img/joeyemojiNB.png'
+import './navbar.css'
+import Joey from '../../img/joeyNobackground.png';
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -34,7 +37,8 @@ const Navbar = () => {
             </li>
 
           </ul>
-
+          <img className="myImage" src={ Joey } alt="..." />
+     
         </div>
 
       </div>
@@ -42,4 +46,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
