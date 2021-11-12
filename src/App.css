@@ -2,12 +2,14 @@
 
 
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
   --primary-orange: #f9ab00;
-  --primary-dark-orange:#ff8c00;
-  --primary-dark: rgba(255,255,255, 0);
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-dark-orange:#ff8c00;
+ --primary-dark-blue:#03324d;
 }
 
 body {
