@@ -1,8 +1,17 @@
 /************************ ABOUT ME *********************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+
 .photo-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  p {
+    text-indent: 50px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: "Roboto Condesed", sans-serif;
   }
   
   .profile-img {
@@ -15,6 +24,8 @@
   .about-heading {
     color: var(--primary-orange);
     text-transform: uppercase;
+    font-family:algerian !important;
+    text-decoration: underline;
   }
   
   @media(max-width: 468px) {

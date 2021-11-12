@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+
+
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
   --primary-orange: #f9ab00;
-  --primary-dark-orange:#ff8c00;
-  --primary-dark: rgba(255,255,255, 0);
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-dark-orange:#ff8c00;
+ --primary-dark-blue:#03324d;
 }
+
 
 /************************ NAVBAR *********************************/
 
@@ -13,22 +19,50 @@ nav {
   z-index: 2;
 }
 
+.navbarList{
+  margin-right: 300px !important;
+}
 .logo {
   width: 12.25rem;
   height: 8rem;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 70px !important;
   right: 0;
   bottom: 0;
 }
+@media(max-width: 1600px) {
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+ }
+
+
+@media(max-width: 400px) {
+  .logo {
+    display: none;
+  }
+ }
 
 .myImage {
+ 
+  position: relative;
   width: 15.25rem;
   height: 8rem;
   margin-bottom:15px;
- margin-top: -15px;
+  margin-top: 5px;
+  margin-left: 400px !important;
 }
+
+@media(max-width: 1600px) {
+  .myImage{
+    display: none;
+  }
+ }
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
