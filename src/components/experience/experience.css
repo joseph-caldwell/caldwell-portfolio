@@ -61,6 +61,12 @@
   color: var(--primary-dark-grey);
   direction: ltr;
 }
+.experience-heading{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  font-family:algerian !important;
+  text-decoration: underline;
+}
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
