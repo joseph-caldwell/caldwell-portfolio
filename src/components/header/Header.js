@@ -1,5 +1,5 @@
 import React from "react";
-import Joey from '../../img/joeyNobackground.png';
+// import Joey from '../../img/joeyNobackground.png';
 import Typed from "react-typed";
 import './header.css'
 

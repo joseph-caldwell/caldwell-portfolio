@@ -22,14 +22,15 @@
   
   
   .services h1 {
-    color: var(--primary-dark);
+    color: var(--primary-dark-orange);
     text-transform: uppercase;
   
   }
-  
-  /* .titleServices{
-    color: var(--primary-dark-orange);;
-  } */
+ 
+ .titleServices{
+    color: var(--primary-dark-orange);
+    font-family:algerian !important;
+  } 
 
   .services .circle {
     position: relative;

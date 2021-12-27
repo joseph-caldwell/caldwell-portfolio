@@ -12,7 +12,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xm-12">
-            <h1 className="about-headThe Emitter particle course for Blender 2.8 and aboveing">About Me:</h1>
+            <h1 className="about-heading">About Me:</h1>
             <p>
               Hello! I am Joseph Caldwell. I have been developing websites for over 2 years and mobile apps for close to 2 years. I'm Full-Stack Web Developer. I graduated Persevere's Code Camp. I have certifications in "Responsive Web Design", "APIs and MicroServices", "Data Visulazation", "Front End Libraries", "Information Services and Quality Assurance", "JavaScript Algorithms and Data Structures", a Linkedin certificate of completion in "Learning the JavaScript Language", "", "The 2021 Blender Primer: 3D Modeling, Animation & Rendering" and a certificate for 20 hours of peer mentoring from when I worked at Banyan Labs Inc. band mentored a fellow  I have also received a certificate for "Using Google Maps Api in React Native for IOS & Android" from Udemy'
                 </p><p>
